@@ -1,2 +1,8 @@
-# Ignore Mac system files
+# Following files and directories will be ignored by git
+
+# Mac system files
 *.DS_Store
+
+# WebStorm config files
+*.idea
+
