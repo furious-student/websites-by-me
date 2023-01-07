@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f0ff;
+    margin-top: 24px;
+}
+
+body,
+header,
+main,
+footer {
+    margin-bottom: 24px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 900;
+    color: #460080;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+img {
+    width: min(200px, 50%);
+}
+
+main {
+    width: min(820px, 90%);
+    background-color: rgb(125, 62, 208);
+    color: #f7f3ff;
+    padding: 24px 16px;
+    border-radius: 8px;
+}
+
+article {
+    margin: 12px;
+}
+
+ul {
+    padding: 8px 0;
+    margin-bottom: 12px;
+    list-style: none;
+}
+
+li {
+    font-size: 18px;
+    border-left: 4px solid transparent;
+    margin: 12px 0;
+    padding-left: 12px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+p a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2e8ff;
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+p a:hover {
+    background-color: #e3d1ff;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.highlighted {
+    color: #ffff93;
+    border-left: 4px solid #ffff93;
+}
+
+#pdf-summary {
+    background-color: #fdcf00;
+    color: #300059;
+    font-size: 24px;
+    padding: 12px 36px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 4px 0 36px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.2s;
+}
+
+#pdf-summary:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#pdf-summary:active {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    color: #300059;
+}
